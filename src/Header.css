@@ -1,0 +1,34 @@
+.header h3 {
+  padding: 20px;
+  font-size: 60px;
+  color: rgb(19, 19, 13);
+  background-color: rgb(235, 207, 46);
+  text-align: center; /* Center the text */
+}
+
+.header ul {
+  margin: 20px;
+  padding: 10px;
+  list-style-type: none;
+  color: rgb(255, 180, 127);
+  font-size: 40px;
+  display: flex;
+  justify-content: center; /* Center the list items horizontally */
+}
+
+.header ul li {
+  margin: 0 20px; /* Add spacing between list items */
+}
+
+.header ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit the color from the list item */
+}
+
+.header ul li a:hover {
+  color: rgb(11, 5, 5); /* Change color on hover */
+  background-color: rgb(241, 247, 45); /* Change background on hover */
+  padding: 5px 10px; /* Add padding on hover */
+  border-radius: 5px; /* Round the corners on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
